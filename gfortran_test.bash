@@ -1,4 +1,4 @@
-./cl
+./cl.bash
 
 make clean
 make all
