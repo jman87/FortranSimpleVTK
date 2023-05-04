@@ -5,7 +5,9 @@ make all
 
 rm -f ./test/TEST_GFortran.exe
 rm -f ./test/output.vtu
- 
+
+mkdir -p test
+
 cp ./test_FortranSimpleVTK.f90 ./test/.
 
 cd ./test/
